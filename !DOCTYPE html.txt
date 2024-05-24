@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Threads</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#sostenibilidad">Sostenibilidad</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Tropical Threads</h1>
+            <p>Vive la moda inspirada en los trópicos</p>
+        </div>
+    </section>
+
+    <section id="destacados" class="highlighted-products">
+        <h2>Productos Destacados</h2>
+        <!-- Productos destacados aquí -->
+        <div class="product">
+            <img src="product1.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descripción del producto 1.</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripción del producto 2.</p>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>Descripción del producto 3.</p>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+        <h2>Testimonios</h2>
+        <!-- Testimonios aquí -->
+        <div class="testimonial">
+            <p>"¡Me encantan las prendas de Tropical Threads! Son perfectas para mis vacaciones en la playa."</p>
+            <cite>– Cliente Satisfecho</cite>
+        </div>
+        <div class="testimonial">
+            <p>"La calidad es impresionante y los diseños son muy frescos y originales."</p>
+            <cite>– Cliente Feliz</cite>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Tropical Threads fue fundada el 25 de abril del 2012 por Elias Arana, Luisa Aguas y Dayanis Lozano, un grupo de emprendedores apasionados por la moda y la naturaleza tropical. La empresa nació con la visión de ofrecer ropa de alta calidad y diseños innovadores inspirados en los entornos tropicales.</p>
+        <h3>Visión y Misión</h3>
+        <p>Nuestra misión es ofrecer ropa de alta calidad que refleje la exuberancia de los trópicos, promoviendo un estilo de vida alegre y relajado.</p>
+        <h3>Valores</h3>
+        <p>Compromiso con la sostenibilidad, la innovación y la satisfacción del cliente.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Productos</h2>
+        <!-- Categorías y filtros -->
+        <div class="product-category">
+            <h3>Ropa Casual</h3>
+            <p>Estampados tropicales y diseños cómodos.</p>
+        </div>
+        <div class="product-category">
+            <h3>Playera</h3>
+            <p>Prendas perfectas para la playa y el verano.</p>
+        </div>
+        <div class="product-category">
+            <h3>Vestidos Elegantes</h3>
+            <p>Elegancia con un toque tropical.</p>
+        </div>
+        <div class="product-category">
+            <h3>Trajes de Baño</h3>
+            <p>Disfruta del sol con estilo.</p>
+        </div>
+    </section>
+
+    <section id="sostenibilidad">
+        <h2>Sostenibilidad</h2>
+        <p>Materiales Ecológicos: Utilizamos tejidos suaves y duraderos que respetan el medio ambiente.</p>
+        <p>Iniciativas Verdes: Nos comprometemos con prácticas de producción responsables y sostenibles.</p>
+        <p>Certificaciones: Contamos con diversas certificaciones que avalan nuestro compromiso ecológico.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <!-- Artículos del blog -->
+        <article class="blog-post">
+            <h3>Tendencias de Moda Tropical 2024</h3>
+            <p>Descubre las últimas tendencias en moda inspirada en los trópicos para este año.</p>
+            <a href="#">Leer más</a>
+        </article>
+        <article class="blog-post">
+            <h3>Consejos de Estilo para el Verano</h3>
+            <p>Aprovecha al máximo tu guardarropa tropical con estos consejos de estilo.</p>
+            <a href="#">Leer más</a>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Dirección: Calle Falsa 123</p>
+        <p>Teléfono: 555-1234</p>
+        <p>Email: contacto@tropicalthreads.com</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tropical Threads. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #00a19a;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('tropical-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+}
+
+.highlighted-products, .testimonials, section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.highlighted-products .product,
+.testimonials .testimonial,
+.product-category,
+.blog-post {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #00a19a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #00a19a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #00a19a;
+    text-decoration: none;
+}
+
+
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Gracias por contactarnos, te responderemos pronto.');
+});
+
